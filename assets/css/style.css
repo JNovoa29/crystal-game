@@ -1,0 +1,90 @@
+body {
+    height: 100%;
+    background: rgb(205, 187, 233);
+}
+
+/* header styling */
+
+.game-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: rgb(212, 204, 204);
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(106, 151, 165);
+    border-bottom: 6px solid rgb(212, 204, 204);
+}
+
+#title-gem1 {
+    height: 80px;
+    width: 80px;
+    transform: rotate(30deg);
+    position: relative;
+    right: 43px;
+    bottom: 5px;
+}
+
+#title-gem2 {
+    height: 80px;
+    width: 80px;
+    transform: rotate(-30deg);
+    position: relative;
+    right: 561px;
+    bottom: 5px;
+}
+
+/* column styling */
+
+.game-container {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.desc-col {
+    margin: 0 auto;
+    font-size: 18px;
+    width: 30%;
+}
+
+.count-col {
+    margin: 0 auto;
+    width: 10%;
+    font-size: 18px;
+}
+
+.gems-col {
+    margin: 0 auto;
+    width: 20%;
+    font-size: 18px;
+}
+
+/* gem images */
+#azul {
+    width: 170px;
+    height: 135px;
+    padding: 20px;
+    margin-bottom:  20px;
+}
+#diamond {
+    width: 180px;
+    height: 165px;
+    padding: 20px;
+    margin-bottom:  20px;
+}
+#ruby {
+    width: 160px;
+    height: 141px;
+    padding: 20px;
+    margin-bottom:  20px;
+
+}
+#obsidian {
+    width: 205px;
+    height: 135px;
+    padding: 20px;
+    transform: rotate(-30deg);
+
+}
+
