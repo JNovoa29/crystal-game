@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background: rgb(205, 187, 233);
+    background-image: url("../images/crinkly-background.jpg");
 }
 
 /* header styling */
@@ -44,8 +44,10 @@ body {
 
 .desc-col {
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 30px;
     width: 30%;
+    border: 3px outset rgb(212, 204, 204);
 }
 
 .count-col {
@@ -87,4 +89,31 @@ body {
     transform: rotate(-30deg);
 
 }
+
+/* score column */
+#num-gems {
+    border: 3px outset rgb(212, 204, 204);
+    padding: 25px 0 25px 20px;
+    width: 150%;
+    margin-bottom: 40px;
+}
+#score {
+    border: 3px outset rgb(212, 204, 204);
+    padding: 25px 0 25px 20px;
+    width: 150%;
+    margin-bottom: 40px;
+}
+#wins {
+    border: 3px outset rgb(212, 204, 204);
+    padding: 25px 0 25px 20px;
+    width: 150%;
+    margin-bottom: 40px;
+
+}
+#loss {
+    border: 3px outset rgb(212, 204, 204);
+    padding: 25px 0 25px 20px;
+    width: 150%;
+}
+
 
