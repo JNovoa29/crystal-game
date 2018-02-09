@@ -39,7 +39,7 @@ body {
 .game-container {
     font-family: 'Exo 2', sans-serif;
     font-weight: bold;
-    color: white;
+    color: rgb(106, 151, 165);
 }
 
 .desc-col {
@@ -47,7 +47,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     width: 30%;
-    border: 3px outset rgb(212, 204, 204);
+    border: 4px outset rgb(212, 204, 204);
 }
 
 .count-col {
@@ -63,26 +63,26 @@ body {
 }
 
 /* gem images */
-#azul {
+.crystal-0 {
     width: 170px;
     height: 135px;
     padding: 20px;
     margin-bottom:  20px;
 }
-#diamond {
+.crystal-1 {
     width: 180px;
     height: 165px;
     padding: 20px;
     margin-bottom:  20px;
 }
-#ruby {
+.crystal-2 {
     width: 160px;
     height: 141px;
     padding: 20px;
     margin-bottom:  20px;
 
 }
-#obsidian {
+.crystal-3 {
     width: 205px;
     height: 135px;
     padding: 20px;
@@ -92,26 +92,26 @@ body {
 
 /* score column */
 #num-gems {
-    border: 3px outset rgb(212, 204, 204);
+    border: 4px outset rgb(212, 204, 204);
     padding: 25px 0 25px 20px;
     width: 150%;
     margin-bottom: 40px;
 }
 #score {
-    border: 3px outset rgb(212, 204, 204);
+    border: 4px outset rgb(212, 204, 204);
     padding: 25px 0 25px 20px;
     width: 150%;
     margin-bottom: 40px;
 }
 #wins {
-    border: 3px outset rgb(212, 204, 204);
+    border: 4px outset rgb(212, 204, 204);
     padding: 25px 0 25px 20px;
     width: 150%;
     margin-bottom: 40px;
 
 }
 #loss {
-    border: 3px outset rgb(212, 204, 204);
+    border: 4px outset rgb(212, 204, 204);
     padding: 25px 0 25px 20px;
     width: 150%;
 }
