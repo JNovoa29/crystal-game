@@ -116,4 +116,22 @@ body {
     width: 150%;
 }
 
+/* reset round and reset game buttons */
+.resetRound {
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background: rgb(106, 151, 165);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.resetGame {
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background: rgb(106, 151, 165);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
 
